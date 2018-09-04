@@ -3514,7 +3514,7 @@ var _initialiseProps = function _initialiseProps() {
   };
 
   this.onInputBlur = function (event) {
-    if (_this7.input && (_this7.input === document.activeElement || _this7.input.contains(document.activeElement))) {
+    if (_this7.menuRef && (_this7.menuRef === document.activeElement || _this7.menuRef.contains(document.activeElement))) {
       _this7.focus();
       return;
     }
