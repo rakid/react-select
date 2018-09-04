@@ -1,6 +1,6 @@
 # Build
 lib
-dist
+# dist
 docs/dist
 .env
 

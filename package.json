@@ -9,7 +9,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/JedWatson/react-select.git"
+    "url": "https://github.com/rakid/react-select.git"
   },
   "dependencies": {
     "classnames": "^2.2.5",

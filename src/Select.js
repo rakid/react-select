@@ -837,7 +837,7 @@ export default class Select extends Component<Props, State> {
     this.openAfterFocus = false;
   };
   onInputBlur = (event: SyntheticFocusEvent<HTMLInputElement>) => {
-        if (this.input && (this.input === document.activeElement || this.imput.contains(document.activeElement))) {
+    if (this.input && (this.input === document.activeElement || this.input.contains(document.activeElement))) {
 			this.focus();
 			return;
 		}
